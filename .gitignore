@@ -1,0 +1,50 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+## Visual Studio / VS Code / Rider
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+.idea/
+*.DotSettings.user
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET
+appsettings.*.local.json
+secrets.json
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## Misc
+*.log
+*.tmp
+*.temp
+*.cache
+*.pidb
+*.svclog
